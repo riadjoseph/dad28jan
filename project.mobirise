@@ -1,0 +1,1337 @@
+{
+  "settings": {
+    "name": "GREATER THAN DHAD",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#ba924d",
+        "secondaryColor": "#366e4d",
+        "successColor": "#ffffff",
+        "infoColor": "#232323",
+        "warningColor": "#879A9F",
+        "dangerColor": "#a38a5a",
+        "mainFont": "Rubik",
+        "display1Font": "Oswald",
+        "display1Size": "3.8",
+        "display2Font": "Oswald",
+        "display2Size": "2",
+        "display5Font": "Oswald",
+        "display5Size": 1.5,
+        "display7Font": "Montserrat",
+        "display7Size": "1.1",
+        "display4Font": "Oswald",
+        "display4Size": "1",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#366e4d",
+        "#a38a5a",
+        "#9ab6a6",
+        "#ba924d",
+        "#417e68",
+        "#666666",
+        "#417f68"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.9.7",
+    "siteFonts": [
+      {
+        "css": "'Oswald', sans-serif",
+        "name": "Oswald",
+        "url": "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700"
+      },
+      {
+        "css": "'Montserrat', sans-serif",
+        "name": "Montserrat",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
+    "uniqCompNum": 32,
+    "versionPublish": "4.11.6",
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "noImageResize": true,
+    "siteUrl": false,
+    "google-analytics": "",
+    "cookiesAlert": false,
+    "sitemapSwitcherAuto": "on",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": false,
+    "PWA": {
+      "enabled": true,
+      "name": "GREATER THAN DHAD",
+      "icon": "@PROJECT_PATH@/assets/images/layan-foundation-logo-512x512.png",
+      "themeColor": "#a38551"
+    },
+    "sitemapSwitcher": false,
+    "gdpr": false,
+    "pwa-switcher": true
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"></script>",
+        "footer_custom": "<script id=\"leform-remote\" src=\"https://greenforms.pro/standalone-demo/content/plugins/halfdata-green-forms/js/leform.min.js?ver=1.13\" data-handler=\"https://greenforms.pro/standalone-demo/ajax.php\"></script>",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "color": "#616161"
+            },
+            "h2, h3, p": {
+              "color": "#767676"
+            },
+            ".mbr-section-subtitle": {
+              "font-style": "normal"
+            },
+            "H1": {
+              "color": "#366e4d",
+              "text-align": "center"
+            },
+            "H3": {
+              "text-align": "center",
+              "color": "#366e4d"
+            },
+            "H2": {
+              "color": "#417e68",
+              "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left",
+              "color": "#366e4d"
+            },
+            ".mbr-arrow": {
+              "background-color": "#366e4d"
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-arrow": {
+                "display": "-webkit-box"
+              }
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <input type=\"checkbox\" name=\"halfSize\" title=\"Half Size\">\n        <select title=\"Align\" name=\"alignHalf\" condition=\"halfSize\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/sculpture-competition-arabic-opt.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &&  alignHalf==2, 'ml-auto': halfSize &&  alignHalf==3}\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">\n                </span><br><span style=\"font-weight: normal;\">GREATER THAN DHAD</span></h1>\n            <h2 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"><span style=\"font-style: normal;\">Arabic Alphabet Sculpture Competition</span></h2>\n            <h3 class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">CHALLENGE</h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Submit your idea for creating a sculpture of one of the 28 letters of the Arabic alphabet, and you could win one of 28 outdoor sculpture commissions for display in Saudi Arabia plus $10,000 in prize money.<br><br><br></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                <a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow show-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "rOReMkM0VT",
+          "_anchor": "header9-m",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "H2": {
+              "text-align": "left",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#a38a5a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>\n                    CHALLENGE</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "challenge",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rORSCQD5rw",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#a38a5a\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Submit your idea for creating a sculpture of one of the 28 letters of the Arabic alphabet, and you could win one of 28 outdoor sculpture commissions for display in Saudi Arabia plus $10,000 in prize money.</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rORuoCQsO2",
+          "_anchor": "summary-challenge",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px",
+              "padding": ".5rem 0"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 992px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu2",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.9\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#a38a5a\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#366e4d\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://www.greaterthandhad.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-164x62.png\" alt=\"Greater Than Dhad Arabic Alphabet Sculpture Competition\" mbr-style=\"{'height': logoSize + 'rem'}\" title=\"Arabic Alphabet Sculpture Competition\">\n                    </a>\n                </span>\n                \n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link text-secondary dropdown-toggle\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">APPLY</a><div class=\"dropdown-menu\"><a class=\"text-secondary dropdown-item\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">CHALLENGE</a><a class=\"text-secondary dropdown-item\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">WHO CAN APPLY</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-secondary dropdown-toggle\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">RULES</a><div class=\"dropdown-menu\"><a class=\"text-secondary dropdown-item\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">ENTRY RULES</a><a class=\"text-secondary dropdown-item\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">TERMS &amp; CONDITIONS</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                        FAQS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                        CONTACT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">العربية</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-danger\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-right mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 17px;\"></span>\n                    \n                    APPLY HERE</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "rosiwOIf41",
+          "_anchor": "menu2-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "H2": {
+              "text-align": "left",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#a38a5a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>WHO CAN APPLY?</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "who-apply",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rORv7UMKdn",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".skewed-header": {
+              "position": "relative",
+              "height": "450px",
+              "overflow": "hidden"
+            },
+            ".skewed-header > .header-bg": {
+              "position": "absolute",
+              "top": "0",
+              "bottom": "0",
+              "right": "0",
+              "left": "0",
+              "height": "100%",
+              "width": "100%",
+              "background-repeat": "no-repeat",
+              "background-size": "100%",
+              "transform": "skewY(-6deg)",
+              "transform-origin": "top left",
+              "filter": "brightness(100%)",
+              "background-color": "#a38a5a"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#417e68\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\t\n    <div class=\"skewed-header\">\n        <div class=\"header-bg\"></div>\n<div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Professional artists and art students from around the world.</p><p>Individual Sculptors, Artist groups and collectives, Classroom submissions.</p><p>Emerging sculptors are encouraged to apply, ideally with a mentor knowledgeable about the practicalities of sculpture fabrication for display outdoors in an arid climate.</p><p><br></p></div>\n                        </div>\n        \n            </div>\n        </div>\n    \n        \n    \n</section>",
+          "_anchor": "apply-details-skewed",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rORv92oVNx",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "H2": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#417e68\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">COMPETITION STAGES &amp; PRIZES</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "competition-stages",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rORAcztb53",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#417e68\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Stage 1:</b> Sculptors submit a 2D interpretation of selected letter, along with artist statement, and artist portfolio.</p><p><i><b>Submission Deadline Mar 31, 2020.<br><span style=\"font-size: 1.1rem;\">Finalists announced Jun 1, 2020.</span></b></i></p><p><br></p><p><b>Stage 2: </b>Finalists are selected to produce and submit a scale model or CAD 3D rendering of their proposed sculpture, including dimensions, materials, cost estimate, explanation of durability and sustainability, etc.</p><p><i><b>Selected finalists receive a prize of $1,000.<br><span style=\"font-size: 1.1rem;\">Submission period Jul 1, 2020 - Sep 30, 2020.</span></b></i></p><p><br></p><p><b>Stage 3:</b> 28 winners are selected.Layan to commission fabrication of sculptures. Details to be shared once winners are selected.</p><p>Selected winners receive a prize of $10,000 plus costs for construction and transportation of the sculpture to KSA.</p><p><i>Winners announced Nov 15, 2020.</i></p><p><br></p><p><b>Fabrication dates of actual sculptures to be announced during stage 3.</b></p><p><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "stages-prizes",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rORAev3WeT",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(0deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video3",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"67\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#a38a5a\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\" checked>\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#a38a5a\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n               <iframe width=\"560\" height=\"315\" src=\"//www.youtube-nocookie.com/embed/Z8pB83mwBlI\" data-src=\"//www.youtube-nocookie.com/embed/Z8pB83mwBlI\" defer=\"\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" data-hj-allow-iframe=\"\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rORIvd2CUc",
+          "_anchor": "video3-t",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "color": "#616161"
+            },
+            "h2, h3, p": {
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle": {
+              "font-style": "italic"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#666666",
+              "text-align": "left"
+            },
+            "H3": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            "H1": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            "SPAN": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn B": {
+              "color": "#232323"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" name=\"halfSize\" title=\"Half Size\">\n        <select title=\"Align\" name=\"alignHalf\" condition=\"halfSize\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/about-us-bg-1920x9681.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &&  alignHalf==2, 'ml-auto': halfSize &&  alignHalf==3}\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">LAYAN CULTURAL FOUNDATION</span><span style=\"font-weight: normal;\"><br></span></h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"><span style=\"font-style: normal; color: #ffffff;\">01/</span><br></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Mission</b><br>The Layan Cultural Foundation will present a message of hope <br>and inspiration to the world; educating the world on the <br>foundational nature of the Arabic language, the true <br>meaning of the Holy Quran and its influence on world culture. <br>Through a sculpture competition the Layan Cultural Foundation <br>will inspire international dialogue about the <br>Arabic language and culture.<br></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>LEARN MORE</a></div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_anchor": "header9-4",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rosq4aqM75",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "color": "#616161"
+            },
+            "h2, h3, p": {
+              "color": "#767676"
+            },
+            ".mbr-section-subtitle": {
+              "font-style": "italic"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#666666",
+              "text-align": "left"
+            },
+            "H3": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            "H1": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            "SPAN": {
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn B": {
+              "color": "#232323"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" name=\"halfSize\" title=\"Half Size\" checked>\n        <select title=\"Align\" name=\"alignHalf\" condition=\"halfSize\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\" selected>Right</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/aboutus-background-dhad-1-1920x11932.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &&  alignHalf==2, 'ml-auto': halfSize &&  alignHalf==3}\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\"></span></h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"><span style=\"font-style: normal;\">02/</span><br></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>The Competition</b><br>Professional artists and art students from around the world can propose their artistic three dimensional interpretation of one of the letters of the Arabic language through sculpture and share their perspective on the culture, meaning and heritage of that letter and the broader Arabic language. <br><br><br>An international panel of experts will award commissions for up to 28 sculptures to be displayed along with a $10,000 USD prize for each participating artist.<br></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>LEARN MORE</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_anchor": "header9-7",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rqR6moiYZS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "color": "#616161"
+            },
+            "h2, h3, p": {
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle": {
+              "font-style": "italic"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#666666",
+              "text-align": "left"
+            },
+            "H3": {
+              "color": "#000000"
+            },
+            "H1": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            "H2": {
+              "text-align": "center"
+            },
+            "SPAN": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn B": {
+              "color": "#232323"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" name=\"halfSize\" title=\"Half Size\">\n        <select title=\"Align\" name=\"alignHalf\" condition=\"halfSize\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/apply-bg-3-1920x11003.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &&  alignHalf==2, 'ml-auto': halfSize &&  alignHalf==3}\">\n            <h2 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal; color: #000000\">ONLINE</span> <span style=\"font-weight: normal; color: #BA924D\">APPLICATION</span><span style=\"font-weight: normal;\"><br></span></h2>\n        </div>\n    </div>\n    \n</section>",
+          "_anchor": "header9-a",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rqRWbLLRUB",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-box": {
+              "background-color": "#ba924d00",
+              "padding": "2rem"
+            },
+            "h2": {
+              "font-weight": "500",
+              "margin-bottom": "0",
+              "text-align": "center"
+            },
+            "h4": {
+              "font-weight": "300",
+              "margin-bottom": "0",
+              "text-align": "left"
+            },
+            "p": {
+              "color": "#767676",
+              "text-align": "left"
+            },
+            ".card-wrapper": {
+              "position": "relative",
+              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+              "transition": "box-shadow 0.3s",
+              "&:hover": {
+                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
+                "transition": "box-shadow 0.3s"
+              }
+            },
+            ".card-img": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "width": "100%",
+              "overflow": "hidden"
+            },
+            "P": {
+              "color": "#000000",
+              "font-size": "14px"
+            },
+            ".card-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "features4",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#ba924d\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/terms-background-1920x20694.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &&  alignHalf==2, 'ml-auto': halfSize &&  alignHalf==3}\">\n            <h2 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal; color: #000000\">ENTRY</span> <span style=\"font-weight: normal; color: #BA924D\">RULES</span><span style=\"font-weight: normal;\"><br></span></h2>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" style=\"background-color: #e1cdb6;\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>01/ <br><br><span style=\"color: #000000;\">How to enter</span></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Download application guidelines and instructions <b>here</b>.<br><br>Complete applications should be uploaded to the websiteby the <b>deadline date</b>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" style=\"background-color: #b19476;\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>02/<br><br><span style=\"color: #000000;\">Stage 1 requires uploading of the following:</span></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Etc&nbsp;<br>Etc&nbsp;<br>Etc</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" style=\"background-color: #c59d76;\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>\n                            03/<br><br><span style=\"color: #000000;\">Stage 2 submission for finalists selected in Stage 1:</span></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Etc<br>Etc<br>Etc</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" style=\"background-color: #bf956a;\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>\n                            04/<br><br><span style=\"color: #000000;\">Submission of entries and Timeline</span></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Etc<br>Etc<br>Etc</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rqUfFZLUC2",
+          "_anchor": "features4-k",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "color": "#616161"
+            },
+            "h2, h3, p": {
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle": {
+              "font-style": "italic"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#666666",
+              "text-align": "left"
+            },
+            "H3": {
+              "color": "#000000"
+            },
+            "H1": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            "H2": {
+              "text-align": "center"
+            },
+            "SPAN": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn B": {
+              "color": "#232323"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" name=\"halfSize\" title=\"Half Size\">\n        <select title=\"Align\" name=\"alignHalf\" condition=\"halfSize\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/terms-background-1920x20694.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &&  alignHalf==2, 'ml-auto': halfSize &&  alignHalf==3}\">\n            <h2 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal; color: #000000\">TERMS</span> <span style=\"font-weight: normal; color: #BA924D\">&amp; CONDITIONS</span><span style=\"font-weight: normal;\"><br></span></h2>\n        </div>\n    </div>\n    \n</section>",
+          "_anchor": "header9-d",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rqS6Gn656k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
+            },
+            ".nav-tabs": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "border-bottom": "none",
+              ".nav-item": {
+                "padding": ".5rem"
+              }
+            },
+            ".nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover": {},
+            ".nav-tabs .nav-link.active": {},
+            ".nav-tabs .nav-link": {
+              "color": "@tabsColor",
+              "font-style": "lighter",
+              "font-weight": "100",
+              "border": "0px solid @tabsColor",
+              "transition": "all .5s",
+              "&:hover": {
+                "cursor": "pointer",
+                "background-color": "@activeTabColor"
+              },
+              "&.active": {
+                "font-weight": "300",
+                "color": "contrast(@activeTabColor)",
+                "font-style": "lighter",
+                "background-color": "@activeTabColor",
+                "border-color": "@activeTabColor",
+                "&:hover": {
+                  "background-color": "@activeTabColor"
+                }
+              }
+            },
+            "p": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#465052"
+            },
+            "P": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            "h2": {
+              "text-align": "center"
+            }
+          },
+          "_name": "tabs1",
+          "_customHTML": "<section class=\"tabs1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Tabs Color\" name=\"tabsColor\" value=\"#417e68\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#ba924d\">\n        <select title=\"Tabs Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/terms-background-1-1920x20695.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\">\n            <input type=\"video\" title=\"Background Video\" value>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ba924d\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-white align-center pb-5 mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><span style=\"font-weight: normal; font-size: 12px\">THE COMPETITION WILL BE JUDGED OVER TWO ROUNDS. THE FIRST ROUND WILL INCLUDE TWO DIMENSIONAL DRAWINGS OF SCULPTURE IDEAS AS WELL AS ELIGIBILITY AND BACKGROUND OF THE PARTICIPANTS. THE SECOND ROUND WILL REQUIRE FINALISTS TO CREATE MODELS OR RENDERINGS OF THEIR PROPOSED SCULPTURES BEFORE FINAL COMMISSIONS ARE ASSIGNED. ALL ENTRANTS TO THE COMPETITION AGREE TO BE BOUND BY THE FOLLOWING TERMS AND CONDITIONS:</span></h2>\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-c_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\" style=\"font-size: 13px\">\n                            SPECIFICATIONS</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-c_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\" style=\"font-size: 13px\">APPLICANTS</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-c_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\" style=\"font-size: 13px\">\n                            JUDGING CRITERIA</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-c_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\" style=\"font-size: 13px\">\n                            JUDGES</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-c_tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\" style=\"font-size: 13px\">\n                            COPYRIGHT</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-c_tab5\" data-app-placeholder=\"Type Text\" aria-selected=\"true\" style=\"font-size: 13px\">\n                            GENERAL CONDITIONS\n                        </a></li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Specifications</b><br><b>i</b>.\tAll entries must be original work of the entrant(s). <br><b>ii.</b>\tSculptures should showcase their assigned letter of the Arabic alphabet as a way to celebrate Middle Eastern culture. <br><b>iii.</b>\tSculptures should primarily utilize the detached or \"munfasal\" منفصل forms of the Arabic letters.<br><b>iv.</b>\tA standardized descriptive plaque explaining the letter and artwork will need be affixed to, or placed immediately adjacent to the work. (Plaque will be created and provided by Layan Cultural Foundation after sculpture installation.)<br><b>v.</b>\tMaterials:<br>i. Entries must be executed in generally accepted materials for sculpture, such as metal, hardwood, stone, terracotta, resin or glass. <br>ii.\tSculptures must last for at least 25 years in an arid climate with minimal to no maintenance required.<br>iii.\tSculptures must be free standing and self-supporting.<br>iv.\tSculptures must be independent of electrical power. Solar or wind power may be used but must be built into the sculpture and self-sustaining.<br>v.\tThe use of easily breakable, hazardous, decomposing or deteriorating materials is not permitted. Materials or entries that could be considered to cause harm to viewers will not be permitted and entries will automatically be disqualified.<br>vi.\tSculptures must be capable of being fixed permanently to the ground<br><br><b>vi.\t</b>Dimensions:<br>i.\tFinished sculptures must meet the following size dimensions <br>ii.\tSculptures must be no more than 4 meters tall<br>iii.\tSculptures must be no more than 3 meters square at the base (wide or deep)<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Applicants</b><br><b>i.\t</b>Eligibility:<br>i.\tProjects should be developed specifically for this competition and cannot be replications of earlier works.<br>ii.\tEntrants should be professional artists or students in art / sculpture programs at an educational institution.<br>iii.\tArtists past works and qualifications should be clearly stated in the artist’s CV.<br>iv.\tThere are no gender, religion or nationality restrictions.<br>v.\tAll applicants must be at least 18 years of age.<br>vi.\tGroup submissions are permitted. For groups of more than one artist, all members must meet the individual eligibility requirements.<br>vii.\tSubmissions should be in either Arabic or English.<br>viii.\tThere is no fee for entry.<br><br><b>ii.</b>\tHow to enter: <br>i.\tDownload application guidelines and instructions here.<br>ii.\tCompleted applications should be uploaded to the website by (DATE) deadline.<b><br></b><br><b>iii.\t</b>Stage 1 requires submission of the following:<br>i.\tBiographical details and CV of the artist’s work (or each of the artists in a group submission.)<br>ii.\tA portfolio of other work, including previous sculptures and a brief description of scale, material and purpose (story / meaning / significance) for each.<br>iii.\tAn artist’s statement identifying the letter being highlighted, rationale for the selection, a description of the design and an explanation of how the sculpture and letter representation fit with the mission of the competition. <br>iv.\tTwo-dimensional drawings / renderings of the proposed sculpture highlighting the chosen letter of the Arabic alphabet. Drawings must clearly show the letter from several vantage points and include notations on proposed materials, dimensions, etc.<br>v.\tSigned acceptance of terms and conditions of the competition.<br>vi.\tEmail address for use in contact and all formal correspondence during the sculpture competition.<br><br><b>iv.</b>\tStage 2 submission for finalists selected in stage 1:<br>i.\tFinalists will produce a scale model or CAD 3D rendering of their proposed sculpture<br>ii.\tA description of the sculpture, dimensions, materials, cost estimate, explanation of durability and sustainability, etc.  <br>iii.\tA stipend of US $500.00 will be awarded to finalists to complete their stage two submissions for final selection.<br><br><b>v.</b>\tSubmission of Entries and Timeline<br>i.\tArtists must submit their application online on this website.<br>ii.\tAll entries for Stage 1 must be received (electronically, or postmarked if coming by mail) by (DATE) <br>iii.\tArtists selected as finalist for the Stage 2 competition will be notified by (DATE)<br>iv.\tStage 2 submissions must be submitted by (DATE), approximately 2 months after notification.<br>v.\tFinal selection for sculpture commissions is expected to be decided by (DATE)<br>1.\tArtists will have 6 months to complete their sculptures<br>vi.\tAll sculptures should arrive in their final destination in Saudi Arabia no later than (DATE) for final installation.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Judging Criteria</b><br><b>i.</b>\tCriteria for Stage 1:<br>i.\tCompleteness of application package<br>ii.\tAdherence to the terms &amp; conditions<br>iii.\tBackground verification of credentials<br>iv.\tStrength of concept or idea<b><br></b><br><b>ii.</b>\tThe Judging Panel of five will select up to 56 (approx. 2 per letter) entrants in the first stage of judging as finalists to compete in stage 2. <b><br></b><br><b>iii.</b>\tFinalists will then submit additional renderings/drawings/models from which the Judges will select the final 28 commissions – one for each letter of the Arabic alphabet. <b><br></b><br><b>iv.</b>\tSubmitted entries, prototypes, drawings or maquettes will not be returned to entrants once the selections have been made.<b><br></b><br><b>v.</b>\tCriteria for Stage 2: <br>i.\tAdherence to the terms &amp; conditions<br>ii.\tStrength of concept or idea<br>iii.\tFeasibility of construction<br><br><b>vi.</b>\tWinning submissions from Stage 2 will be selected to receive commissions by the Judging Panel to create a full-size sculpture for installation (actual location TBD).<b><br></b><br><b>vii.</b>\tUp to 28 different artists will be awarded commissions – one per Arabic letter.<br>i.\tGroup submissions will be considered and award as a singular commission to the pre-organized group of artists.<br>ii.\tJudges may award more than one commission to the same artist.<br><br><b>viii.</b>\tAn expense budget not to exceed $20,000 USD will be awarded to each commission to cover the construction and fabrication of each sculpture.<br><br><b>ix.</b>\tCost of shipment and installation of final works will be covered.<br>i.\tAny extra expenses incurred for any reason due to a failure on the part of the artist to meet any transportation deadline which was agreed between the Layan Cultural Foundation and the artist shall be covered by the artist.<br><br><b>x.</b>\tCash prize of $10,000 USD will be awarded to each artist as part of their commission.<br>i.\tArtists awarded more than one commission will receive an expense budget and prize money for each commission.<br>ii.\tGroups receiving a commission will split the prize money among the individuals named in the submission.<br><br><b>xi.</b>\tWinners will earn publicity around their sculpture by being included in the competition’s print and digital communications.<br><br><b>xii.</b>\tThe decision of the Layan Cultural Foundation on any and all matters relating to the Competition will be final and binding. Layan and members of the Judging Panel are not obliged or bound to enter into any communications whatsoever regarding such decisions.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Judges</b><br><b>i.</b>\tA panel of 5 individuals will meet to determine finalists as well as winning submissions and will assign the commissions.<br><br><b>ii.</b>\tJudges will include representatives from the following:<br>i.\tRepresentative from the Layan Cultural Foundation<br>ii.\tRepresentative from the Local or Regional government<br>iii.\tRepresentative from the Royal Family<br>iv.\tAward winning Saudi artist<br>v.\tInternational / Middle Eastern sculpture artist<br><br><b>iii.</b>\tJudges will each receive a stipend of $1,000 USD in recognition of their oversight and input.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Copyright</b><br><b>i.</b>\tUnless otherwise agreed with the Layan Cultural Foundation in writing, the entrant(s) for each entry consent to the following:<br>i.\tArtist maintains the rights to the images and submitted works, but gives the Layan Cultural Foundation, irrevocable, royalty-free, without any compensation, the worldwide rights of reproduction, exhibition, publication, translation, and communication to the public, in any manner, without exception and in perpetuity, for their works and for the texts participating in the selection. <br>ii. Layan Cultural Foundation has the right to create and reproduce images and video of the artist in the development of the work for publicity, marketing and educational purposes for the competition and the LCF.<b><br></b><br><b>ii.</b>\tLCF has the right to reproduce images of the work (with full credit to the artists) for Layan Cultural Foundation marketing materials.<b><br></b><br><b>iii.</b>\tThe Layan Cultural Foundation, while fully respecting the rights of the author, will exercise these rights for all institutional activities for communication concerning the competition. <br><br><b>iv.</b>\tLayan Cultural Foundation has the right to make miniature reproductions of the sculptures for marketing or sales to further its charitable aims, including artist credit lines and recognition on packaging or enclosed paperwork as appropriate. <br>All materials submitted for application to and consideration of the sculpture competition will not be returned to the artists but will be retained and archived by the Layan Cultural Foundation.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>General Conditions</b><br><b>i.</b>\tThe artists for the 28 final commissions selected by the Judging Panel will be officially notified by email.<br><br><b>ii.</b>\tCoordination for installation will happen through the Layan Cultural Foundation. The artist or an approved representative must be present for the installation in case of problems or necessary changes. <br>i.\tDelivery of the sculptures must be within the days and times set by the organizers.<br>ii.\tThe artist agrees to provide the Layan Cultural Foundation with all information required for customs formalities and agrees to sign any relevant separate contracts, which could be required for customs clearance during transportation to the final location, according to all applicable laws.<br>iii.\tLCF will cover travel expenses (flight, hotel, local travel and meals) and travel visa processing and approval for international winners for the artist(s) or artist representative. <br>iv.\tFor groups, travel will be provided for a max of (4) representatives per sculpture. <br><br><b>iii.</b>\tSelected artists will, at the discretion of the Layan Cultural Foundation, be highlighted and publicized online and in a printed exhibition catalog. <br><br><b>iv.</b>\tLayan Cultural Foundation will arrange media coverage and publicity for the sculpture launch event where the commissioned artists will be announced publicly.<br><br><b>v.</b>\tLayan Cultural Foundation, while guaranteeing the greatest care and custody of applications, models and works, will not be liable for any thefts, fires or damages to the artworks that could occur during all stages of the competition. Any insurance is the responsibility of the Artists. <br><br><b>vi.</b>\tThe Layan Cultural Foundation reserves the right, at its sole discretion, to disqualify any artist it finds to be tampering with the entry process or the operation of the sculpture competition, including its website. It also reserves the right to disqualify any artist who does not adhere to the Rules of Entry or Terms &amp; Conditions.<br><br><b>vii.</b>\tIf for any reason, the sculpture competition is not capable of running as planned, the Layan Cultural Foundation reserves the right at its sole discretion to cancel, terminate, modify or suspend the sculpture competition. All finalists and commissioned artists will receive notification for delays lasting more than 1 year or termination of the competition program.<br><br><b>viii.</b>\tBy participating in this contest, the artist agrees to be bound by these rules, including all eligibility requirements. <br><br><b>ix.</b>\tAll interpretations of the rules and decisions by the Layan Cultural Foundation relating to the rules and the sculpture competition are final. <br><br><b>x.</b>\tJudges and Employees of the Layan Cultural Foundation and their immediate family members are not eligible to compete for a commission due to conflict of interest.<br><br><b>xi.</b>\tLayan Cultural Foundation reserves the right to modify these “Terms &amp; Conditions” if it is necessary.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    \n</section>",
+          "_cid": "rqS6zcP89u",
+          "_anchor": "tabs1-c",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
+            },
+            ".nav-tabs": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "border-bottom": "none",
+              ".nav-item": {
+                "padding": ".5rem"
+              }
+            },
+            ".nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover": {},
+            ".nav-tabs .nav-link.active": {},
+            ".nav-tabs .nav-link": {
+              "color": "@tabsColor",
+              "font-style": "lighter",
+              "font-weight": "300",
+              "border": "0px solid @tabsColor",
+              "transition": "all .5s",
+              "&:hover": {
+                "cursor": "pointer",
+                "background-color": "@activeTabColor"
+              },
+              "&.active": {
+                "font-weight": "300",
+                "color": "contrast(@activeTabColor)",
+                "font-style": "lighter",
+                "background-color": "@activeTabColor",
+                "border-color": "@activeTabColor",
+                "&:hover": {
+                  "background-color": "@activeTabColor"
+                }
+              }
+            },
+            "p": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            "a": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "tabs1",
+          "_customHTML": "<section class=\"tabs1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Tabs Color\" name=\"tabsColor\" value=\"#417e68\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#ba924d\">\n        <select title=\"Tabs Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/faq-background-2-1920x9856.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\">\n            <input type=\"video\" title=\"Background Video\" value>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ba924d\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-white align-center pb-5 mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">FAQS</span></h2>\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-g_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            GENERAL</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-g_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">APPLICATION</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-g_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">SCULPTURES</a></li>\n                   \n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>What is the aim of the Greater Than Dhad Competition?</b><br>The competition will celebrate the role of the Arabic language in Middle Eastern culture by creating a set of Arabic alphabet sculptures.<br><br><b>What is the prize?</b><br>Up to 28 winners will be awarded a commission to fabricate and ship their sculpture, the cost of which will be covered by the Layan Cultural Foundation (up to a maximum of $20,000 USD). Each commission includes a monetary prize of $10,000 USD.<br><br><b>Who judges the competition?</b><br>Five judges will represent local and organizational interests as well as leading regional artists. Find out details HERE<br><br><b>How does the competition work?</b><br>The competition will be judged in two stages. Your application and proposed design will be judged in Stage 1. Finalists will be selected to further develop their concepts and create a scale model in Stage 2 before final commissions are awarded.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\" style=\"font-size: 10px\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>How do I enter? </b><br>Applications are accepted until DATE. You may apply online HERE any time during that window. Registrations may be completed online only; there is no paper application. Find more details HERE<br><br>Paper applications (with all of the same materials) may be mailed to the Layan Cultural Foundation at the address below and must be postmarked by the deadline. <br>*Applications will only be considered in the format the application is originally received in. Do not mail an application that has been submitted electronically. <br><br><b>Can anyone enter?</b><br>The competition is open to any professional artists or art students. Layan encourages artists from all religious, nationalities and genders to apply. All applicants must be at least 18 years of age.<br><br><b>Can we apply as a group?</b><br>Yes, group applications are accepted. One member of your team will need to take the lead in filling out the application, and all materials must be uploaded at the same time. <br><br><b>Can I submit more than one sculpture?</b><br>Artists may submit multiple proposals for additional sculptures. Each sculpture must be submitted as its own application and all required materials must be included with each application. <br><br><b>Can I be awarded more than one commission?</b><br>Yes, Artists can be awarded more than one commission, and those that are will receive a separate expense budget and prize money for each commission.<br><br><b>Does my sculpture have to be complete before I enter the competition?</b><br>No. Your initial application only requires you to select a letter and concept the sculpture. If selected to move on, semifinalists will be provided a stipend and time to further develop your sculpture and the winning artists will receive a commission to construction / fabricate the final sculpture.<br><br><b>What does it cost to enter?</b><br>There is no fee to apply. A $1000 USD stipend is provided semi-finalists for the further development as well as a cash prize and production budget for the creation of the final sculptures.<br><br><b>How are the applications being judged?</b><br>In Stage 1 the judges will be looking for the strength of the concept, a complete application package, adherence to the terms and conditions, and background verification of credentials. <br>Semi-finalists will be judged on the strength of their concepts and the feasibility of construction for their final proposals. <br><br><b>Will my application materials be returned?</b><br>All materials submitted for application to and consideration of the sculpture competition will not be returned to the artists but will be retained and archived by the Layan Cultural Foundation<br><br><b>How will I be contacted if I apply?</b><br>The email address you submit in your application will be used for all contact and formal correspondence during the sculpture competition. For group submissions, the primary contact person’s email address will be used.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Which Arabic letters are included?</b><br>The sculptures depict the 28 letters of the traditional Arabic alphabet, without any regional additions. Sculptures should primarily utilize the detached or \"munfasal\" منفصل forms of the Arabic letters.<br><br><b>Can I use more than one letter in my sculpture?</b><br>Other Arabic letter may be included, but the selected letter should be the primary focus. I.e. viewers should have an immediate understanding of which letter is being highlighted when looking at your work, without the need for interpretive text or additional context or explanation.<br><br><b>How large can the sculpture be?</b><br>\tSculptures must be no more than 4 meters tall and no more than 3 meters square at the base.<br><br><b>What can the sculptures be made of?</b><br>Entries must be executed in generally accepted materials for sculpture, such as metal, hardwood, stone, terracotta, resin or glass. The use of easily breakable, hazardous, decomposing or deteriorating materials is not permitted.<br>Sculptures must last for at least 25 years in an arid climate with minimal to no maintenance required.<br><br><b>What structural limitations apply to the sculptures?</b><br>Sculptures must be free standing and self-supporting.<br>Sculptures must be independent of electrical power.<br>Solar or wind power may be used but must be built into the sculpture and self-sustaining.<br>Sculptures must be capable of being fixed permanently to the ground.<br><br><b>Will any plaque or explanation of the concept need to be included in the sculpture?</b><br>A standardized descriptive plaque explaining the letter and artwork will need be affixed to or placed immediately adjacent to the work. (Plaque will be created and provided by Layan Cultural Foundation after sculpture installation.)<br><br><b>Do artists need to be present when the sculptures are installed? Are travel expenses to install the sculpture included in the commission? </b><br>Coordination for installation will happen through the Layan Cultural Foundation. The artist or an approved representative must be present for the installation in case of problems or necessary changes. <br>LCF will cover travel expenses (flight, hotel, local travel and meals) and travel visa processing and approval for international winners for the artist(s) or artist representative. <br>For groups, travel will be provided for a max of (4) representatives per sculpture. <br><br><b>How long will the sculptures be on display?</b><br><br><b>Where will the sculptures be on display?</b><br><br><b>Who retains the rights to the concept of the sculpture? </b><br>Artist maintains the rights to the images and submitted works, but gives the Layan Cultural Foundation, irrevocable, royalty-free, without any compensation, the worldwide rights of reproduction, exhibition, publication, translation, and communication to the public, in any manner, without exception and in perpetuity, for their works and for the texts participating in the selection. <br>See complete copyright agreements in the terms and conditions.<br><br><b>If selected as a finalist, can I or the Layan Cultural Foundation reproduce the sculpture elsewhere?</b><br>Layan Cultural Foundation has the right to make miniature reproductions of the sculptures for marketing or sales to further its charitable aims, including artist credit lines and recognition on packaging or enclosed paperwork as appropriate. <br><br><b>Further questions?</b><br>\tPlease review the Terms &amp; Conditions and the Application package. <br>\tIf you have questions beyond that, please email (CUSTOM EMAIL @layanfoundation.com)<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Judges</b><br>i.\tA panel of 5 individuals will meet to determine finalists as well as winning submissions and will assign the commissions.<br>ii.\tJudges will include representatives from the following:<br>i.\tRepresentative from the Layan Cultural Foundation<br>ii.\tRepresentative from the Local or Regional government<br>iii.\tRepresentative from the Royal Family<br>iv.\tAward winning Saudi artist<br>v.\tInternational / Middle Eastern sculpture artist<br>iii.\tJudges will each receive a stipend of $1,000 USD in recognition of their oversight and input.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Copyright</b><br>i.\tUnless otherwise agreed with the Layan Cultural Foundation in writing, the entrant(s) for each entry consent to the following:<br>i.\tArtist maintains the rights to the images and submitted works, but gives the Layan Cultural Foundation, irrevocable, royalty-free, without any compensation, the worldwide rights of reproduction, exhibition, publication, translation, and communication to the public, in any manner, without exception and in perpetuity, for their works and for the texts participating in the selection. <br>1.\tLayan Cultural Foundation has the right to create and reproduce images and video of the artist in the development of the work for publicity, marketing and educational purposes for the competition and the LCF.<br>ii.\tLCF has the right to reproduce images of the work (with full credit to the artists) for Layan Cultural Foundation marketing materials.<br>iii.\tThe Layan Cultural Foundation, while fully respecting the rights of the author, will exercise these rights for all institutional activities for communication concerning the competition. <br>iv.\tLayan Cultural Foundation has the right to make miniature reproductions of the sculptures for marketing or sales to further its charitable aims, including artist credit lines and recognition on packaging or enclosed paperwork as appropriate. <br>All materials submitted for application to and consideration of the sculpture competition will not be returned to the artists but will be retained and archived by the Layan Cultural Foundation.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>General Conditions</b><br>i.\tThe artists for the 28 final commissions selected by the Judging Panel will be officially notified by email. <br>ii.\tCoordination for installation will happen through the Layan Cultural Foundation. The artist or an approved representative must be present for the installation in case of problems or necessary changes. <br>i.\tDelivery of the sculptures must be within the days and times set by the organizers.<br>ii.\tThe artist agrees to provide the Layan Cultural Foundation with all information required for customs formalities and agrees to sign any relevant separate contracts, which could be required for customs clearance during transportation to the final location, according to all applicable laws.<br>iii.\tLCF will cover travel expenses (flight, hotel, local travel and meals) and travel visa processing and approval for international winners for the artist(s) or artist representative. <br>iv.\tFor groups, travel will be provided for a max of (4) representatives per sculpture. <br>iii.\tSelected artists will, at the discretion of the Layan Cultural Foundation, be highlighted and publicized online and in a printed exhibition catalog. <br>iv.\tLayan Cultural Foundation will arrange media coverage and publicity for the sculpture launch event where the commissioned artists will be announced publicly.<br>v.\tLayan Cultural Foundation, while guaranteeing the greatest care and custody of applications, models and works, will not be liable for any thefts, fires or damages to the artworks that could occur during all stages of the competition. Any insurance is the responsibility of the Artists. <br>vi.\tThe Layan Cultural Foundation reserves the right, at its sole discretion, to disqualify any artist it finds to be tampering with the entry process or the operation of the sculpture competition, including its website. It also reserves the right to disqualify any artist who does not adhere to the Rules of Entry or Terms &amp; Conditions.<br>vii.\tIf for any reason, the sculpture competition is not capable of running as planned, the Layan Cultural Foundation reserves the right at its sole discretion to cancel, terminate, modify or suspend the sculpture competition. All finalists and commissioned artists will receive notification for delays lasting more than 1 year or termination of the competition program.<br>viii.\tBy participating in this contest, the artist agrees to be bound by these rules, including all eligibility requirements. <br>ix.\tAll interpretations of the rules and decisions by the Layan Cultural Foundation relating to the rules and the sculpture competition are final. <br>x.\tJudges and Employees of the Layan Cultural Foundation and their immediate family members are not eligible to compete for a commission due to conflict of interest.<br>xi.\tLayan Cultural Foundation reserves the right to modify these “Terms &amp; Conditions” if it is necessary.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "tabs1-g",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rqSpICdNod",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".content": {
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".img-logo": {
+              "img": {
+                "height": "6rem"
+              }
+            },
+            ".form-group, .input-group-btn": {
+              "padding": "0"
+            },
+            ".form-control": {
+              "font-size": ".75rem",
+              "text-align": "center",
+              "min-width": "150px"
+            },
+            ".input-group-btn .btn": {
+              "padding": ".75rem 1.5625rem !important",
+              "margin-left": ".625rem",
+              "text-transform": "none",
+              "color": "#fff",
+              "text-align": "center"
+            },
+            "a": {
+              "margin": "0",
+              "opacity": ".5",
+              "-webkit-transition": ".2s linear",
+              "transition": ".2s linear",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            "@media (max-width: 767px)": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".foot-logo": {
+                "text-align": "center !important"
+              },
+              ".foot-title": {
+                "text-align": "center !important"
+              },
+              ".mbr-text": {
+                "text-align": "center !important"
+              },
+              ".form-group": {
+                "margin": "0"
+              }
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": ".05"
+              }
+            },
+            ".form-group": {
+              "margin": "0"
+            },
+            ".foot-text": {
+              "color": "#417e68"
+            },
+            ".foot-title": {
+              "color": "#417e68"
+            },
+            ".foot-logo": {
+              "color": "#417e68"
+            },
+            ".form-text": {
+              "color": "#417e68"
+            },
+            ".mbr-links-column": {
+              "color": "#417e68"
+            },
+            ".copyright > p": {
+              "color": "#000000"
+            },
+            "p": {
+              "font-size": "14px"
+            },
+            "SPAN": {
+              "color": "#000000"
+            }
+          },
+          "_name": "footer4",
+          "_customHTML": "<section class=\"footer4\" group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n <div class=\"container\">\n        <h2 class=\"mbr-white align-center pb-5 mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\"><span style=\"font-weight: normal;\">CONTACT</span></h2></div><br><br>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/skyline-1920x6417.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-md-3 col-sm-4\">\n                <div class=\"mb-3 img-logo\">\n                    \n                        <img src=\"@PROJECT_PATH@/assets/images/layan-logo-156x166.png\" alt=\"Layan Cultural Foundation Logo\" title=\"Layan Cultural Foundation Logo in the footer\">\n                   \n                </div>\n                <p class=\"mb-3 mbr-fonts-style foot-title\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-logo\">\n                    Saudi Fine Art &amp; Culture<br>Kingdom of Saudi Arabia</p>\n                <p class=\"mbr-text mbr-fonts-style mbr-links-column\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-links-column\">t. +966 123 456789<br>e. info@greaterthandhad.com<br>w. layanfoundation.com<br></p>\n            </div>\n            <div class=\"col-md-4 col-sm-8\">\n                \n                <p class=\"mbr-text mbr-fonts-style foot-text\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-text\">Please review the <u>FAQ page</u> and <u>Terms &amp; Conditions</u> for competition details.<br><br>For further questions or partnership opportunities, please contact the Layan Cultural Foundation.<br><br>Application materials submitted via email will not be considered. Please use the <u>online application</u>.</p>\n            </div>\n            <div class=\"col-md-4 offset-md-1 col-sm-12\">\n                <p class=\"mb-4 foot-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title\"><b>\n                    APPLICATION PROCESS</b></p>\n                <p class=\"mbr-text mbr-fonts-style form-text\" mbr-theme-style=\"display-7\" data-app-selector=\".form-text\"><u>Competition Rules<br>Layan Cultural Foundation<br>Sponsorship / Partnership Opportunities<br>Other</u><br><br></p>\n                \n       \n                \n                </div>\n             </div>\n            \n      \n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-12 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\"><br><br><br>\n                        © 2019 Layan Cultural Foundation. All Rights Reserved.</p>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\"><br><br><br>\n                        By History Factory.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rqSvdlICaH",
+          "_anchor": "footer4-h",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
