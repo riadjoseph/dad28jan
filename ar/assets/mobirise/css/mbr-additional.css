@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Cairo:200,300,400,500,600,700&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Cairo:200,300,400,500,600,700,800,900&display=swap);
-
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Cairo:200,300,400,500,600,700&display=swap&subset=arabic" rel="stylesheet" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com/css?family=Cairo:200,300,400,500,600,700&display=swap&subset=arabic" rel="stylesheet" crossorigin>
 
 
 
@@ -649,7 +648,7 @@ section.lazy-placeholder:after {
   color: #366e4d;
 }
 .cid-rOReMkM0VT H2 {
-  color: #417e68;
+  color: #366e4d;
   text-align: center;
 }
 .cid-rOReMkM0VT .mbr-text,
@@ -1103,7 +1102,7 @@ section.lazy-placeholder:after {
 .cid-rORv92oVNx {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #417e68;
+  background-color: #366e4d;
 }
 .cid-rORv92oVNx .mbr-text,
 .cid-rORv92oVNx blockquote {
@@ -1135,7 +1134,7 @@ section.lazy-placeholder:after {
 .cid-rORAcztb53 {
   padding-top: 60px;
   padding-bottom: 0px;
-  background-color: #417e68;
+  background-color: #366e4d;
 }
 .cid-rORAcztb53 .mbr-section-subtitle {
   color: #767676;
@@ -1147,7 +1146,7 @@ section.lazy-placeholder:after {
 .cid-rORAev3WeT {
   padding-top: 0px;
   padding-bottom: 60px;
-  background-color: #417e68;
+  background-color: #366e4d;
 }
 .cid-rORAev3WeT .mbr-text,
 .cid-rORAev3WeT blockquote {
@@ -1386,10 +1385,10 @@ section.lazy-placeholder:after {
   padding: .5rem;
 }
 .cid-rqS6zcP89u .nav-tabs .nav-link {
-  color: #417e68;
+  color: #366e4d;
   font-style: lighter;
   font-weight: 100;
-  border: 0px solid #417e68;
+  border: 0px solid #366e4d;
   transition: all .5s;
 }
 .cid-rqS6zcP89u .nav-tabs .nav-link:hover {
@@ -1443,10 +1442,10 @@ section.lazy-placeholder:after {
   padding: .5rem;
 }
 .cid-rqSpICdNod .nav-tabs .nav-link {
-  color: #417e68;
+  color: #366e4d;
   font-style: lighter;
   font-weight: 300;
-  border: 0px solid #417e68;
+  border: 0px solid #366e4d;
   transition: all .5s;
 }
 .cid-rqSpICdNod .nav-tabs .nav-link:hover {
@@ -1484,7 +1483,7 @@ section.lazy-placeholder:after {
   padding-top: 60px;
   padding-bottom: 120px;
   background-image: url("../../../assets/images/skyline-1920x6417.png");
-  background-blend-mode: color-burn;
+  background-blend-mode: lighten;
 }
 @media (max-width: 767px) {
   .cid-rqSvdlICaH .content {
@@ -1556,19 +1555,19 @@ section.lazy-placeholder:after {
   margin: 0;
 }
 .cid-rqSvdlICaH .foot-text {
-  color: #417e68;
+  color: #366e4d;
 }
 .cid-rqSvdlICaH .foot-title {
-  color: #417e68;
+  color: #366e4d;
 }
 .cid-rqSvdlICaH .foot-logo {
-  color: #417e68;
+  color: #366e4d;
 }
 .cid-rqSvdlICaH .form-text {
-  color: #417e68;
+  color: #366e4d;
 }
 .cid-rqSvdlICaH .mbr-links-column {
-  color: #417e68;
+  color: #366e4d;
 }
 .cid-rqSvdlICaH .copyright > p {
   color: #000000;
