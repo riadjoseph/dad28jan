@@ -538,10 +538,10 @@ blockquote {
     -webkit-animation: arrowdown 1.7s ease-in-out infinite;
     animation: arrowdown 1.7s ease-in-out infinite; }
     .mbr-arrow > a > i {
-      position: absolute;
+      /*position: absolute;*/
       top: -2px;
       right: 15px;
-      font-size: 2rem; }
+      font-size: 2rem; font-weight: bold;}
 
 @keyframes arrowdown {
   0% {
@@ -626,7 +626,7 @@ blockquote {
   font-style: normal; }
 
 .mbr-arrow a {
-  color: #ffffff; }
+  color: #366e4d; }
 
 @media (max-width: 767px) {
   .mbr-arrow {
